@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+
+:root {
+}
+
+@theme {
+    --font-montserrat: "Montserrat", "sans-serif"; 
+    --font-poppins: "Poppins", "sans-serif"; 
+    --color-m: #B88E2F;
+  }
