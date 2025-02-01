@@ -1,7 +1,8 @@
 import { VscAccount } from "react-icons/vsc";
 import { IoIosSearch, IoIosHeartEmpty } from "react-icons/io";
 import { LuShoppingCart } from "react-icons/lu";
-import Rooms from "./assets/components/Rooms/Rooms";
+import Rooms from "./components/Rooms/Rooms";
+import Products from "./components/Products/Products";
 
 function App() {
 
@@ -93,7 +94,16 @@ function App() {
       </section>
 
       <section className="flex px-32 pt-14 justify-center">
+        <div className="text-center">
+           <h1 className="font-poppins font-bold text-3xl text-black/80 pb-2">Browse the Range</h1>
+           <span className="font-poppins font-normal text-xl text-black/50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatum.</span>
            <Rooms />
+        </div>
+      </section>
+
+      <section className="px-24 pt-14 justify-center">
+          <h1 className="text-center font-poppins font-bold text-4xl text-black/80 pb-8">Our products</h1>
+          <Products />
       </section>
 
     </div>
