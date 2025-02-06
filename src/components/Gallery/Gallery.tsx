@@ -29,7 +29,7 @@ function Gallery() {
         <div className="pl-11 flex relative items-center gap-6">
             <FaChevronLeft onClick={slideLeft} size={40} className="text-m"/>
             <div id="slider" className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth">
-            <img className="inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300" src="./src/assets/rooms-1.png" alt="" />
+            <img className="min-w-[200px] min-h-[200px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300" src="./src/assets/rooms-1.png" alt="" />
 
             <img className="inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300" src="./src/assets/rooms-2.png" alt="" />
 

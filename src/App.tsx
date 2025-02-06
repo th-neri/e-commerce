@@ -4,6 +4,7 @@ import { LuShoppingCart } from "react-icons/lu";
 import Rooms from "./components/Rooms/Rooms";
 import Products from "./components/Products/Products";
 import Gallery from "./components/Gallery/Gallery";
+import Informations from "./components/Informations/Informations";
 
 function App() {
 
@@ -110,6 +111,10 @@ function App() {
       <section className="px-28 pt-16 flex justify-center">
         <Gallery />
         </section>
+
+      <section className="flex pt-12 justify-center">
+        <Informations />
+      </section>
     </div>
 
 
