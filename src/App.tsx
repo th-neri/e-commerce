@@ -3,6 +3,7 @@ import { IoIosSearch, IoIosHeartEmpty } from "react-icons/io";
 import { LuShoppingCart } from "react-icons/lu";
 import Rooms from "./components/Rooms/Rooms";
 import Products from "./components/Products/Products";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
 
@@ -101,11 +102,14 @@ function App() {
         </div>
       </section>
 
-      <section className="px-24 pt-14 justify-center">
+      <section className="pl-48 pt-14 justify-center">
           <h1 className="text-center font-poppins font-bold text-4xl text-black/80 pb-8">Our products</h1>
           <Products />
       </section>
 
+      <section className="px-28 pt-16 flex justify-center">
+        <Gallery />
+        </section>
     </div>
 
 
