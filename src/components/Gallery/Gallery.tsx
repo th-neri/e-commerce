@@ -14,7 +14,7 @@ function Gallery() {
 
     return (
       <div className="flex items-center justify-center pl-36 pr-11">
-        <div className="flex-col pt-56">
+        <div className="min-w-[px] flex-col pt-56">
         <h1 className="font-poppins font-bold text-5xl text-black/80">Beautiful rooms inspirations</h1>
         <h1 className="font-poppins font-bold text-5xl text-black/80"></h1>
         <span className="font-poppins font-medium text-base text-black/50 pt-2">Our designer already made a lot of beautiful <br></br>prototipe of rooms that inspire you</span>
