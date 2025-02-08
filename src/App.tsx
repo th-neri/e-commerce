@@ -103,7 +103,7 @@ function App() {
         </div>
       </section>
 
-      <section className="pl-48 pt-14 justify-center">
+      <section className="px-48 pt-14">
         <h1 className="text-center font-poppins font-bold text-4xl text-black/80 pb-8">Our products</h1>
         <Products />
       </section>
