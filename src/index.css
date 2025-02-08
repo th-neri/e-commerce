@@ -1,16 +1,15 @@
 @import "tailwindcss";
 
-:root {
-}
+:root {}
 
 @theme {
-    --font-montserrat: "Montserrat", "sans-serif"; 
-    --font-poppins: "Poppins", "sans-serif"; 
-    --color-m: #B88E2F;
-    --color-p: #F4F5F7;
-    --color-highlight: #2EC1AC;
-  }
+  --font-montserrat: "Montserrat", "sans-serif";
+  --font-poppins: "Poppins", "sans-serif";
+  --color-m: #B88E2F;
+  --color-p: #F4F5F7;
+  --color-highlight: #2EC1AC;
+}
 
-  input[type="text"]:focus ~ .input-text {
-    @apply text-m transform -translate-y-5 scale-105;
-  }
+input[type="text"]:focus~.input-text {
+  @apply text-m transform -translate-y-5 scale-105;
+}
