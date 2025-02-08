@@ -13,13 +13,13 @@
 <br>
 
 <p align="center">
-  <img alt="" src=".github/preview-1.png" width="100%">
+  <img alt="" src=".github/preview-1.png">
 </p>
 <p align="center">
-  <img alt="" src=".github/preview-2.png" width="100%">
+  <img alt="" src=".github/preview-2.png">
 </p>
 <p align="center">
-  <img alt="" src=".github/preview-3.png" width="100%">
+  <img alt="" src=".github/preview-3.png">
 </p>
 
 ## 🚀 Technologies
@@ -29,7 +29,7 @@ This project was developed using the following technologies:
 - React
 - TypeScript
 - Tailwind CSS
-- Git e Github
+- Git and Github
 
 ## 💻 Project
 
